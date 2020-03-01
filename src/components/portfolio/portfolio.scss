@@ -1,0 +1,23 @@
+#portfolioDiv {
+    background-color: #606dbc;
+    border-radius: 50px;
+    margin: 120px 0 15px 0;
+}
+
+#portfolioHeader {
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #f4f4f4 !important;
+    padding-top: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    #portfolioDiv {
+        border-radius: 160px;
+    }
+
+    #portfolioHeader {
+        margin-top: 170px;
+    }
+}
