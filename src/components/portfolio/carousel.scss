@@ -2,19 +2,21 @@
   padding: 25px;
 
   img {
-    height: 69vh;
+    height: 50vh;
   }
   h3, p {
     text-transform: capitalize;
   }
 }
 .carousel-caption {
-  color: #606dbc !important;
-  background: #e6e6e6;
-  border-radius: 55px;
+  color:rgba(211, 25, 0, .7) !important;
+  background: #e8e8e8;
+  border-radius: 18px;
   position: relative !important;
   bottom: 0 !important;
   left: 0 !important;
+  max-width: 1200px;
+  margin: auto;
 }
 
 

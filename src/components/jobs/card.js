@@ -11,8 +11,8 @@ const Card = props => {
       animatePreScroll="false"
     >
       <div id={props.id} className="brd-rd card">
-        <img className="brd-rd" src={props.imgsrc} alt="Avatar" />
-        <div className="container brd-rd-btm">
+        <img className="brd-rd-top" src={props.imgsrc} alt="Avatar" />
+        <div className="brd-rd-btm">
           <h4>
             <b>{props.title}</b>
           </h4>

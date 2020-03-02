@@ -4,7 +4,7 @@ import "./footer.scss";
 export default class Footer extends React.Component {
   render() {
     return (
-
+<div>
           <div className="resume">
             <section id="resume">
               <div id="contact">
@@ -47,6 +47,8 @@ export default class Footer extends React.Component {
                 </div>
               </div>
             </section>
+</div>
+<div id="last"><h1>Hone Code L.L.C.&trade;</h1></div>
 </div>
     );
   }

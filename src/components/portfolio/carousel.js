@@ -19,7 +19,7 @@ const service2 = {
 };
 const service3 = {
   img: img3,
-  title: "gerneral scripting/automations",
+  title: "general scripting/automations",
   para:
     "scripts & automations to replace tedius/repetitive task on the computer"
 };

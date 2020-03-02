@@ -9,7 +9,7 @@ body {
 }
 #sectionScroll {
     position: relative;
-    bottom: -90px;
+    bottom: -250px;
 }
 #portfolioHeader {
     text-align: center;
@@ -25,6 +25,6 @@ body {
 
 @media only screen and (max-width: 768px) {
     #sectionScroll {
-        bottom: -175px;
+        bottom: -375px;
     }
 }
