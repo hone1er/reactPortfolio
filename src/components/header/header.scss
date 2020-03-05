@@ -1,5 +1,19 @@
 $main: #465298;
 $secondary: #606dbc;
+// $roboto: 'Roboto';
+$subtitle: 'Oxanium';
+
+
+    // $basker: 'Libre Baskerville' ;
+
+    $serif-roboto: 'Roboto' ;
+
+    // $roboto: 'Oxanium' ;
+
+    $open: 'Open Sans';
+
+    // $slab: 'Roboto Slab';
+
 
 #outer-head {
     background: #f8f8f8;
@@ -13,6 +27,12 @@ $secondary: #606dbc;
 
     h2 {
         font-size: 2vw;
+        font-family: $serif-roboto;
+        text-transform: lowercase;
+
+        span {
+            font-family: $open;
+        }
     }
 }
 

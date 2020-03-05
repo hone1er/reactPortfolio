@@ -12,21 +12,24 @@ const service1 = {
   title: "data analytics/visualization",
   paragraph:
     "professional data analysis & web-based interactive data visualizations",
-  fade: "bounceInLeft"
+  fade: "bounceInLeft",
+  delay: viewport > 768 ? "575" : "0"
 };
 const service2 = {
   img: img2,
   title: "responsive websites",
   paragraph:
     "high quality responsive websites that look wonderful on any device",
-  fade: viewport > 768 ? "bounceInUp" : "bounceInRight"
+  fade: viewport > 768 ? "bounceInUp" : "bounceInRight",
+  delay: "0"
 };
 const service3 = {
   img: img3,
   title: "scripting/automations",
   paragraph:
     "scripts & automations to replace tedius/repetitive task on the computer",
-  fade: viewport > 768 ? "bounceInRight" : "bounceInUp"
+  fade: viewport > 768 ? "bounceInRight" : "bounceInUp",
+  delay: viewport > 768 ? "575" : "0"
 };
 
 const services = [service1, service2, service3];
@@ -36,7 +39,7 @@ export default class Cards extends React.Component {
     return (
       <div id="mainCardDiv">
         <div id="recentJobs" className="cardsDiv">
-          <h1 id="servicesHeader">services</h1>
+          <h1 id="servicesHeader">what i do</h1>
           {services.map(x => (
             <Card
               imgsrc={x.img}
@@ -44,6 +47,7 @@ export default class Cards extends React.Component {
               paragraph={x.paragraph}
               id={x.img}
               fade={x.fade}
+              delay={x.delay}
               alt="responsive websites"
             />
           ))}

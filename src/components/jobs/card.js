@@ -7,7 +7,7 @@ const Card = props => {
       animateIn={props.fade}
       animateOnce="true"
       duration="1.35"
-      delay="100"
+      delay={props.delay}
       animatePreScroll="false"
     >
       <div id={props.id} className="brd-rd card">

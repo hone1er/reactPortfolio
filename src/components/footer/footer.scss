@@ -1,4 +1,14 @@
 $bubble: #606dbc;
+$roboto: 'Roboto';
+$subtitle: 'Oxanium';
+
+#contact {
+    padding-top: 135px
+}
+
+#twitter {
+    border-radius: 50%;
+}
 
 #footerDiv {
     margin-top: 150px;
@@ -37,22 +47,29 @@ $bubble: #606dbc;
     text-align: center;
     background: #e4e4e4;
     width: 100%;
+    height: 800px;
     margin: 225px auto 0;
     background: #f4f4f4;
     transform: skewy(15deg);
     position: relative;
-    z-index: -5;
     bottom: 100px;
-    height: 900px;
+    height: 1000px;
+
     section {
+
         transform: skewy(-15deg);
         width: 100%;
         background-color: #f4f4f4;
         border-radius: 18px;
     }
 
-    button:hover  {
-        
+    button {
+        background: #1da1f2;
+        border-color: #1da1f2;
+    }
+
+    button:hover {
+
         background: $bubble;
         border-color: $bubble;
     }
@@ -65,7 +82,7 @@ $bubble: #606dbc;
 #svgDiv {
     display: flex;
     width: 60%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: 50px auto;
 }
 
@@ -77,19 +94,79 @@ $bubble: #606dbc;
     position: relative;
     top: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
+
     h1 {
-    font-size: 1.5em;
+        font-size: 1.5em;
     }
 }
 
 #resume {
-    padding: 0 0 200px 0;
+    padding: 0;
+    width: 30%;
+    min-width: 300px;
+}
+
+.tech {
+    transform: skewY(-15deg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+    
+        li {
+            margin: 0vw;
+        }
+
+        #react, #sass {
+            margin-left: 0;
+        }
+    }
+
+    svg, img {
+        width: 150px;
+        height: 150px;
+    }
+    img {
+        padding: 20px;
+    }
+    #html-svg {
+        padding: 5px;
+    }
+    #react {
+        padding: 0;
+    }
+}
+
+.techstack {
+    width: 70%;
+    max-width: 1325px;
 }
 
 @media only screen and (max-width: 1280px) {
+    .tech {
+        transform: skewY(-20deg);
+
+        svg,img {
+            width: 125px;
+            height: 125px;
+        }
+
+        .techstack {
+            width: 95%;
+            max-width: 1000px;
+        }
+
+    }
+
     .resume {
         transform: skewy(20deg);
 
@@ -101,17 +178,75 @@ $bubble: #606dbc;
     }
 
 }
+
 @media only screen and (max-width: 768px) {
     #last {
         top: -90px;
     }
+
     .resume {
         width: 100%;
         margin-top: 85px;
+        height: 225vw;
 
         section {
             bottom: 0px;
             max-height: 395px;
+        }
+    }
+
+    .tech {
+        position: absolute;
+        top: 100px;
+
+        ul {
+            flex-direction: column;
+            height: 100%;
+        }
+
+        svg, img {
+            width: 25vw;
+            height: auto;
+        }
+        img {
+            padding: 17px;
+        }
+        #html-svg {
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .resume {
+        height: 242vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .tech {
+        img {
+            padding: 14px;
+        }
+    }
+
+    .resume {
+        height: 262vw;
+    }
+
+    #last {
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .resume {
+        height: 300vw;
+    }
+
+    .tech {
+        img {
+            padding: 11px;
         }
     }
 }

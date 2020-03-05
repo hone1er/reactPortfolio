@@ -1,3 +1,8 @@
+$oxanium: 'Oxanium';
+$basker: 'Libre Baskerville' ;
+$roboto: 'Roboto' ;
+$slab: 'Roboto-slab';
+$open: 'Open Sans';
 #portfolioDiv {
     background-color: #606dbc;
     border-radius: 18px;
@@ -5,10 +10,13 @@
     padding: 125px 0 200px 0;
 }
 
+#outer-portfolio {
+    position: relative;
+    z-index: 1;
+}
 #portfolioHeader {
     text-align: center;
     text-transform: uppercase;
-    font-style: italic;
     color: #f4f4f4 !important;
     padding-top: 35px;
 }

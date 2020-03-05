@@ -1,24 +1,24 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import './carousel.scss'
-import img1 from "./images/undraw_setup_analytics_8qkl.svg";
-import img2 from "./images/undraw_progressive_app_m9ms.svg";
-import img3 from "./images/undraw_feeling_proud_qne1.svg";
+import img1 from "./images/nameTrender (2).JPG";
+// import img2 from "./images/undraw_progressive_app_m9ms.svg";
+// import img3 from "./images/undraw_feeling_proud_qne1.svg";
 
 const service1 = {
   img: img1,
-  title: "data analytics/visualization",
+  title: "Name Trender",
   para:
-    "professional data analysis and web-based interactive data visualizations"
+    "Enter a name and see how it has been trending in the U.S. since 1881!"
 };
 const service2 = {
-  img: img2,
+  img: img1,
   title: "responsive websites",
   para:
     "high quality responsive websites that will look wonderful on any device"
 };
 const service3 = {
-  img: img3,
+  img: img1,
   title: "general scripting/automations",
   para:
     "scripts & automations to replace tedius/repetitive task on the computer"
@@ -44,7 +44,9 @@ function ControlledCarousel(props) {
     >
       {services.map(props => (
         <Carousel.Item key={props.img}>
-          <img className="d-block w-100" src={props.img} alt="First slide" />
+          <div className="carousel-img  w-100">
+          <img  src={props.img} alt="First slide" />
+          </div>
           <Carousel.Caption>
             <h3>{props.title}</h3>
             <p>{props.para}</p>

@@ -1,3 +1,6 @@
+$roboto: 'Roboto';
+$subtitle: 'Oxanium';
+
 body {
     background: repeating-linear-gradient(
         45deg,
@@ -11,11 +14,7 @@ body {
     position: relative;
     bottom: -250px;
 }
-#portfolioHeader {
-    text-align: center;
-    margin: 35px 0 10px 0;
-    font-style: italic;
-}
+
 
 #main {
     position: relative;

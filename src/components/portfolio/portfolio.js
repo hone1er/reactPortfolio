@@ -9,7 +9,7 @@ export default class Portfolio extends React.Component {
       <div id="outer-portfolio">
       <div id="portfolioDiv">
         <section id="portfolio">
-            <h1 id="portfolioHeader">portfolio</h1>
+            <h1 id="portfolioHeader">What i've done</h1>
             <Carousel />
         </section>
       </div>

@@ -15,7 +15,7 @@ export default class Header extends React.Component {
             </div>
           </section>
           <h2 id="headerText">
-            Hi, I'm Joe! <span id="passionate">welcome</span> to my{" "}
+            Hi, I'm <span id="name">Joe!</span> <span id="passionate">welcome</span> to my{" "}
             <span id="experience"> portfolio</span>
           </h2>
         </div>
