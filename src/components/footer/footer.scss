@@ -75,7 +75,14 @@ $subtitle: 'Oxanium';
     }
 
     h1 {
-        margin: 50px 0;
+        margin: 15px;
+        display: flex;
+        justify-content: flex-end;
+        color:
+            rgba(211, 25, 0, 0.7);
+        font-size: 2.8rem;
+        border-bottom: 1px black solid;
+        padding: 0 0 20px;
     }
 }
 
@@ -121,26 +128,31 @@ $subtitle: 'Oxanium';
         display: flex;
         padding: 0;
         justify-content: space-between;
-    
+
         li {
             margin: 0vw;
         }
 
-        #react, #sass {
+        #react,
+        #sass {
             margin-left: 0;
         }
     }
 
-    svg, img {
+    svg,
+    img {
         width: 150px;
         height: 150px;
     }
+
     img {
         padding: 20px;
     }
+
     #html-svg {
         padding: 5px;
     }
+
     #react {
         padding: 0;
     }
@@ -149,13 +161,15 @@ $subtitle: 'Oxanium';
 .techstack {
     width: 70%;
     max-width: 1325px;
+    border-bottom: 1px black solid;
 }
 
 @media only screen and (max-width: 1280px) {
     .tech {
         transform: skewY(-20deg);
 
-        svg,img {
+        svg,
+        img {
             width: 125px;
             height: 125px;
         }
@@ -204,17 +218,44 @@ $subtitle: 'Oxanium';
             height: 100%;
         }
 
-        svg, img {
+        svg,
+        img {
             width: 25vw;
             height: auto;
         }
+
         img {
             padding: 17px;
         }
+
         #html-svg {
             padding: 0;
         }
     }
+
+    .techstack {
+        border-bottom: none;
+
+        h1 {
+            font-size: 3.75rem;
+        border-bottom: none;
+        margin-right: 34px;
+        width: 97%;
+        }
+
+        li {
+            border-bottom: 1px black solid;
+
+            h4 {
+                margin-bottom: 32px;
+            }
+        }
+    }
+
+    #sass{
+        border-bottom: none;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
