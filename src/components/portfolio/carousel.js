@@ -1,7 +1,10 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import './carousel.scss'
-import img1 from "./images/nameTrender (2).JPG";
+import img1 from "./images/nameTrender4.JPG";
+import img2 from "./images/responsive.JPG";
+import img3 from "./images/thirsty.jpg";
+import img4 from "./images/andres-urena-tsBropDpnwE-unsplash.jpg";
 // import img2 from "./images/undraw_progressive_app_m9ms.svg";
 // import img3 from "./images/undraw_feeling_proud_qne1.svg";
 
@@ -9,22 +12,33 @@ const service1 = {
   img: img1,
   title: "Name Trender",
   para:
-    "Enter a name and see how it has been trending in the U.S. since 1881!"
+    "Enter a name and see how it has been trending in the U.S. since 1881! Check it out: ",
+    link: "https://www.nametrender.com"
 };
 const service2 = {
-  img: img1,
-  title: "responsive websites",
+  img: img2,
+  title: "Crony Creative",
   para:
-    "high quality responsive websites that will look wonderful on any device"
+    "Implemented a responsive Adobe XD design. Visit the site: ",
+  link: "https://www.cronycreative.com"
 };
 const service3 = {
-  img: img1,
-  title: "general scripting/automations",
+  img: img3,
+  title: "Worldwide Water Analysis",
   para:
-    "scripts & automations to replace tedius/repetitive task on the computer"
+    "Created interactive graphs/maps with Ploty.js. Take a look at the project: ",
+    link: "http://thirsty2thrive.world/"
 };
 
-const services = [service1, service2, service3];
+const service4 = {
+  img: img4,
+  title: "Amazon Alexa Skill",
+  para:
+    "Tells the user all the latest uploads to Thrasher Magazine's website. Implemented in Python 3.6: ",
+    link: "https://www.amazon.com/Hone-Thrasher-video/dp/B07RLBPR8F"
+};
+
+const services = [service1, service2, service3, service4];
 
 function ControlledCarousel(props) {
   const [index, setIndex] = React.useState(0);
@@ -49,7 +63,8 @@ function ControlledCarousel(props) {
           </div>
           <Carousel.Caption>
             <h3>{props.title}</h3>
-            <p>{props.para}</p>
+            <p>{props.para}{props.link? <a  href={props.link}>link</a> : null}</p>
+            
           </Carousel.Caption>
         </Carousel.Item>
       ))}

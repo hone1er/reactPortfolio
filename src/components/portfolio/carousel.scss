@@ -14,7 +14,7 @@ $headers: rgba(211, 25, 0, .7);
 
   h3,
   p {
-    text-transform: capitalize;
+    text-transform: none;
     color: #5f5f5f;
   }
 
@@ -34,7 +34,7 @@ $headers: rgba(211, 25, 0, .7);
   justify-content: center;
   img {
     margin: 0 auto 60px;
-    border-radius: 18px;
+    border-radius: 0;
     height: auto;
     max-height: 306px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
@@ -46,7 +46,7 @@ $headers: rgba(211, 25, 0, .7);
 .carousel-caption {
   color: #5f5f5f !important;
   background: #e8e8e8;
-  border-radius: 18px;
+  border-radius: 0;
   position: relative !important;
   bottom: 0 !important;
   left: 0 !important;
@@ -63,7 +63,7 @@ $headers: rgba(211, 25, 0, .7);
     padding: 10px 20px;
     background-color: #dbdbdb;
     color: $headers;
-    border-radius: 18px 18px 0 0;
+    border-radius: 0;
     margin-bottom: 0;
     align-self: center;
     border-bottom: 1px solid white;
@@ -71,7 +71,7 @@ $headers: rgba(211, 25, 0, .7);
 
   p {
     background-color: #e0e0e0;
-    border-radius: 0 0 18px 18px;
+    border-radius: 0;
     padding: 10px 20px;
     margin: 0px;
   }
@@ -87,7 +87,7 @@ $headers: rgba(211, 25, 0, .7);
   .carousel-img {
     img {
       margin: 0 auto 60px;
-      border-radius: 18px;
+      border-radius: 0;
       height: auto;
       max-height: 206px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
