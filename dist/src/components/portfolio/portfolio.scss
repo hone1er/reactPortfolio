@@ -1,0 +1,33 @@
+$oxanium: 'Oxanium';
+$basker: 'Libre Baskerville' ;
+$roboto: 'Roboto' ;
+$slab: 'Roboto-slab';
+$open: 'Open Sans';
+#portfolioDiv {
+    background-color: #606dbc;
+    border-radius: 18px;
+    margin: 120px 0 15px 0;
+    padding: 125px 0 200px 0;
+}
+
+#outer-portfolio {
+    position: relative;
+    z-index: 1;
+}
+#portfolioHeader {
+    text-align: center;
+    text-transform: uppercase;
+    color: #f4f4f4 !important;
+    padding-top: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+    #portfolioDiv {
+        margin-top: 150px;
+        padding-top: 0;
+    }
+
+    #portfolioHeader {
+        margin-top: 170px;
+    }
+}
