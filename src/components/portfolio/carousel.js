@@ -34,7 +34,7 @@ const service4 = {
   img: img4,
   title: "Amazon Alexa Skill",
   para:
-    "Tells the user all the latest uploads to Thrasher Magazine's website. Implemented in Python 3.6: ",
+    "Implemented an Amazon Alexa skill in Python 3.6: ",
     link: "https://www.amazon.com/Hone-Thrasher-video/dp/B07RLBPR8F"
 };
 
