@@ -12,21 +12,21 @@ const service1 = {
   img: img1,
   title: "Name Trender",
   para:
-    "Enter a name and see how it has been trending in the U.S. since 1881! Check it out: ",
+    "Enter a name and see how it has been trending in the U.S. since 1881!",
     link: "https://www.nametrender.com"
 };
 const service2 = {
   img: img2,
   title: "Crony Creative",
   para:
-    "Implemented a responsive Adobe XD design. Visit the site: ",
+    "Implemented a responsive Adobe XD design ",
   link: "https://www.cronycreative.com"
 };
 const service3 = {
   img: img3,
   title: "Worldwide Water Analysis",
   para:
-    "Created interactive graphs/maps with Ploty.js. Take a look at the project: ",
+    "Created interactive graphs/maps with Ploty.js ",
     link: "http://thirsty2thrive.world/"
 };
 
