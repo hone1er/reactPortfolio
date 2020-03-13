@@ -58,12 +58,14 @@ function ControlledCarousel(props) {
     >
       {services.map(props => (
         <Carousel.Item key={props.img}>
+          {props.link? <a  href={props.link}>
           <div className="carousel-img  w-100">
           <img  src={props.img} alt="First slide" />
           </div>
+          </a> : null}
           <Carousel.Caption>
             <h3>{props.title}</h3>
-            <p>{props.para}{props.link? <a  href={props.link}>link</a> : null}</p>
+            <p>{props.para}</p>
             
           </Carousel.Caption>
         </Carousel.Item>
