@@ -1,0 +1,290 @@
+$bubble: #606dbc;
+$roboto: 'Roboto';
+$subtitle: 'Oxanium';
+
+#contact {
+    padding-top: 135px
+}
+
+#twitter {
+    border-radius: 50%;
+}
+
+#footerDiv {
+    margin-top: 150px;
+    display: flex;
+    background-color: #333;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 0;
+    height: 70px;
+
+    section {
+        height: 100%;
+    }
+
+    h1 {
+        display: flex;
+        align-items: center;
+        color: #6666;
+        justify-self: center;
+        height: 100%;
+        margin: 0 !important;
+        text-transform: capitalize;
+        font-style: italic;
+
+        span {
+            text-transform: uppercase;
+        }
+    }
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #e4e4e4;
+    width: 100%;
+    height: 800px;
+    margin: 225px auto 0;
+    background: #f4f4f4;
+    transform: skewy(15deg);
+    position: relative;
+    bottom: 100px;
+    height: 1000px;
+
+    section {
+
+        transform: skewy(-15deg);
+        width: 100%;
+        background-color: #f4f4f4;
+        border-radius: 18px;
+    }
+
+    button {
+        background: #1da1f2;
+        border-color: #1da1f2;
+    }
+
+    button:hover {
+
+        background: $bubble;
+        border-color: $bubble;
+    }
+
+    h1 {
+        margin: 15px;
+        display: flex;
+        justify-content: flex-end;
+        color:
+            rgba(211, 25, 0, 0.7);
+        font-size: 2.8rem;
+        border-bottom: 1px black solid;
+        padding: 0 0 20px;
+    }
+}
+
+#svgDiv {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+#last {
+    width: 100%;
+    height: 300px;
+    background-color: $bubble;
+    border-radius: 18px;
+    position: relative;
+    top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
+
+#resume {
+    padding: 0;
+    width: 30%;
+    min-width: 300px;
+}
+
+.tech {
+    transform: skewY(-15deg);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+
+        li {
+            margin: 0vw;
+        }
+
+        #react,
+        #sass {
+            margin-left: 0;
+        }
+    }
+
+    svg,
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    img {
+        padding: 20px;
+    }
+
+    #html-svg {
+        padding: 5px;
+    }
+
+    #react {
+        padding: 0;
+    }
+}
+
+.techstack {
+    width: 70%;
+    max-width: 1325px;
+    border-bottom: 1px black solid;
+}
+
+@media only screen and (max-width: 1280px) {
+    .tech {
+        transform: skewY(-20deg);
+
+        svg,
+        img {
+            width: 125px;
+            height: 125px;
+        }
+
+        .techstack {
+            width: 95%;
+            max-width: 1000px;
+        }
+
+    }
+
+    .resume {
+        transform: skewy(20deg);
+
+        section {
+            transform: skewy(-20deg);
+            bottom: 10px;
+            position: relative;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    #last {
+        top: -90px;
+    }
+
+    .resume {
+        width: 100%;
+        margin-top: 85px;
+        height: 1850px;
+
+        section {
+            bottom: 0px;
+            max-height: 395px;
+        }
+    }
+
+    .tech {
+        position: absolute;
+        top: 96px;
+        bottom: 110px;
+
+        ul {
+            flex-direction: column;
+            height: 100%;
+        justify-content: space-between;
+
+        }
+
+        svg,
+        img {
+            width: 190px;
+            height: auto;
+        }
+
+        img {
+            padding: 17px;
+        }
+
+        #html-svg {
+            padding: 0;
+        }
+    }
+
+    .techstack {
+        border-bottom: none;
+
+        h1 {
+            font-size: 3.75rem;
+        border-bottom: none;
+        margin-right: 34px;
+        width: 97%;
+        }
+
+        li {
+            border-bottom: 1px black solid;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 24px 0 53px;
+
+        }
+    }
+
+    #sass{
+        border-bottom: none;
+    }
+
+}
+
+// @media only screen and (max-width: 690px) {
+//     .resume {
+//         height: 242vw;
+//     }
+
+// }
+
+@media only screen and (max-width: 542px) {
+    .tech {
+        img {
+            padding: 14px;
+        }
+    }
+
+
+
+    #last {
+        padding-top: 150px;
+    }
+}
+
+
+
