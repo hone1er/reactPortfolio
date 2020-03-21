@@ -1,35 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea50dfa3fe4fa75b8d2459806a278ba0",
+    "revision": "65dcb81110a9fbf3840498ec0ea89da1",
     "url": "/reactPortfolio/index.html"
   },
   {
-    "revision": "eb4be738bfc7e9883b0d",
+    "revision": "9a0094efda03f31f1475",
     "url": "/reactPortfolio/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "bb94849c6eb662708d1a",
-    "url": "/reactPortfolio/static/css/main.113b59e1.chunk.css"
+    "revision": "da5c75fabf7a4465f121",
+    "url": "/reactPortfolio/static/css/main.057818e4.chunk.css"
   },
   {
-    "revision": "eb4be738bfc7e9883b0d",
-    "url": "/reactPortfolio/static/js/2.5597a021.chunk.js"
+    "revision": "9a0094efda03f31f1475",
+    "url": "/reactPortfolio/static/js/2.e4593ca6.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/reactPortfolio/static/js/2.5597a021.chunk.js.LICENSE.txt"
+    "url": "/reactPortfolio/static/js/2.e4593ca6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bb94849c6eb662708d1a",
-    "url": "/reactPortfolio/static/js/main.d5007c0e.chunk.js"
+    "revision": "da5c75fabf7a4465f121",
+    "url": "/reactPortfolio/static/js/main.b49167a3.chunk.js"
   },
   {
     "revision": "d964f8dd9c282f095ee2",
     "url": "/reactPortfolio/static/js/runtime-main.414a3297.js"
-  },
-  {
-    "revision": "d00ce21957e1bc4c45f9e3ca57c14826",
-    "url": "/reactPortfolio/static/media/Twitter_Logo_WhiteOnBlue.d00ce219.svg"
   },
   {
     "revision": "befd75dd44999a92229f4a2b5a1ec8e6",

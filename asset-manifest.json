@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.113b59e1.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.d5007c0e.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.d5007c0e.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.057818e4.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.b49167a3.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.b49167a3.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.414a3297.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.414a3297.js.map",
     "static/css/2.47e06e2e.chunk.css": "/reactPortfolio/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5597a021.chunk.js": "/reactPortfolio/static/js/2.5597a021.chunk.js",
-    "static/js/2.5597a021.chunk.js.map": "/reactPortfolio/static/js/2.5597a021.chunk.js.map",
+    "static/js/2.e4593ca6.chunk.js": "/reactPortfolio/static/js/2.e4593ca6.chunk.js",
+    "static/js/2.e4593ca6.chunk.js.map": "/reactPortfolio/static/js/2.e4593ca6.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.91d3c27117ea164d4ec0e6d401894197.js": "/reactPortfolio/precache-manifest.91d3c27117ea164d4ec0e6d401894197.js",
+    "precache-manifest.d042c343694e113f5044a3fa02648648.js": "/reactPortfolio/precache-manifest.d042c343694e113f5044a3fa02648648.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/reactPortfolio/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.113b59e1.chunk.css.map": "/reactPortfolio/static/css/main.113b59e1.chunk.css.map",
-    "static/js/2.5597a021.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.5597a021.chunk.js.LICENSE.txt",
-    "static/media/Twitter_Logo_WhiteOnBlue.svg": "/reactPortfolio/static/media/Twitter_Logo_WhiteOnBlue.d00ce219.svg",
+    "static/css/main.057818e4.chunk.css.map": "/reactPortfolio/static/css/main.057818e4.chunk.css.map",
+    "static/js/2.e4593ca6.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.e4593ca6.chunk.js.LICENSE.txt",
     "static/media/andres-urena-tsBropDpnwE-unsplash.jpg": "/reactPortfolio/static/media/andres-urena-tsBropDpnwE-unsplash.befd75dd.jpg",
     "static/media/christopher-gower-m_HRfLhgABo-unsplash.jpg": "/reactPortfolio/static/media/christopher-gower-m_HRfLhgABo-unsplash.8a993a5d.jpg",
     "static/media/nameTrender4.JPG": "/reactPortfolio/static/media/nameTrender4.b12c6158.JPG",
@@ -27,8 +26,8 @@
   "entrypoints": [
     "static/js/runtime-main.414a3297.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.5597a021.chunk.js",
-    "static/css/main.113b59e1.chunk.css",
-    "static/js/main.d5007c0e.chunk.js"
+    "static/js/2.e4593ca6.chunk.js",
+    "static/css/main.057818e4.chunk.css",
+    "static/js/main.b49167a3.chunk.js"
   ]
 }
