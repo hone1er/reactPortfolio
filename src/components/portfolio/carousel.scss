@@ -112,7 +112,9 @@ $headers: rgba(211, 25, 0, .7);
 @media only screen and (max-width: 475px) {
   .carousel-img {
     img {
-      width: 270px;
+      width: 100%;
+      max-width: 290px;
+      height: auto;
     }}
   .carousel-caption {
     h3 {
