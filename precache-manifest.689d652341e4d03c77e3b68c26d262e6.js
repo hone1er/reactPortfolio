@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4fe956343ea6b391b266d497931647c3",
+    "revision": "106561106bd25b0174ec5c47b0be7abd",
     "url": "/reactPortfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactPortfolio/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "1aecb7d65d73a13b214a",
+    "revision": "4417af5b7ed29f5e55a5",
     "url": "/reactPortfolio/static/css/main.038d119f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactPortfolio/static/js/2.5597a021.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1aecb7d65d73a13b214a",
-    "url": "/reactPortfolio/static/js/main.5c6cdfa6.chunk.js"
+    "revision": "4417af5b7ed29f5e55a5",
+    "url": "/reactPortfolio/static/js/main.d5007c0e.chunk.js"
   },
   {
     "revision": "d964f8dd9c282f095ee2",
@@ -36,20 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactPortfolio/static/media/andres-urena-tsBropDpnwE-unsplash.befd75dd.jpg"
   },
   {
-    "revision": "5f45d2cd0e077bec2450923075587d43",
-    "url": "/reactPortfolio/static/media/nameTrender4.5f45d2cd.JPG"
+    "revision": "8a993a5dea30b9eab8d1f05c75fef6bc",
+    "url": "/reactPortfolio/static/media/christopher-gower-m_HRfLhgABo-unsplash.8a993a5d.jpg"
+  },
+  {
+    "revision": "b12c61580438808078a2a71673525aa2",
+    "url": "/reactPortfolio/static/media/nameTrender4.b12c6158.JPG"
   },
   {
     "revision": "51c2eab22c8994e70e7633979982b451",
     "url": "/reactPortfolio/static/media/python-seeklogo.com.51c2eab2.svg"
   },
   {
-    "revision": "8c726a11ed8763eadd2bc7261c05e3f4",
-    "url": "/reactPortfolio/static/media/responsive.8c726a11.JPG"
-  },
-  {
-    "revision": "037535389e3fdb94a49b9390b7cf30e6",
-    "url": "/reactPortfolio/static/media/thirsty.03753538.jpg"
+    "revision": "8463798517e729dae73bca9808242359",
+    "url": "/reactPortfolio/static/media/responsive1.84637985.JPG"
   },
   {
     "revision": "46e01fac8738776dc9f56b168c3bc12e",
