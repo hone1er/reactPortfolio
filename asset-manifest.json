@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.038d119f.chunk.css",
+    "main.css": "/reactPortfolio/static/css/main.113b59e1.chunk.css",
     "main.js": "/reactPortfolio/static/js/main.d5007c0e.chunk.js",
     "main.js.map": "/reactPortfolio/static/js/main.d5007c0e.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.414a3297.js",
@@ -9,10 +9,10 @@
     "static/js/2.5597a021.chunk.js": "/reactPortfolio/static/js/2.5597a021.chunk.js",
     "static/js/2.5597a021.chunk.js.map": "/reactPortfolio/static/js/2.5597a021.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.689d652341e4d03c77e3b68c26d262e6.js": "/reactPortfolio/precache-manifest.689d652341e4d03c77e3b68c26d262e6.js",
+    "precache-manifest.91d3c27117ea164d4ec0e6d401894197.js": "/reactPortfolio/precache-manifest.91d3c27117ea164d4ec0e6d401894197.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/reactPortfolio/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.038d119f.chunk.css.map": "/reactPortfolio/static/css/main.038d119f.chunk.css.map",
+    "static/css/main.113b59e1.chunk.css.map": "/reactPortfolio/static/css/main.113b59e1.chunk.css.map",
     "static/js/2.5597a021.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.5597a021.chunk.js.LICENSE.txt",
     "static/media/Twitter_Logo_WhiteOnBlue.svg": "/reactPortfolio/static/media/Twitter_Logo_WhiteOnBlue.d00ce219.svg",
     "static/media/andres-urena-tsBropDpnwE-unsplash.jpg": "/reactPortfolio/static/media/andres-urena-tsBropDpnwE-unsplash.befd75dd.jpg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.414a3297.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.5597a021.chunk.js",
-    "static/css/main.038d119f.chunk.css",
+    "static/css/main.113b59e1.chunk.css",
     "static/js/main.d5007c0e.chunk.js"
   ]
 }
