@@ -95,7 +95,7 @@ $headers: rgba(211, 25, 0, .7);
       height: auto;
       max-height: 206px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
-  
+      width: 410px;
     }
   }
   .carousel-caption {
@@ -110,7 +110,10 @@ $headers: rgba(211, 25, 0, .7);
 }
 
 @media only screen and (max-width: 475px) {
-
+  .carousel-img {
+    img {
+      width: 270px;
+    }}
   .carousel-caption {
     h3 {
       font-size: 1.2rem;
