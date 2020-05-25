@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import './carousel.scss'
 import img1 from "./images/nameTrender4.JPG";
 import img2 from "./images/responsive1.JPG";
-// import img3 from "./images/thirsty.jpg";
+import img3 from "./images/threesImg.png";
 import img4 from "./images/andres-urena-tsBropDpnwE-unsplash.jpg";
 import img5 from "./images/christopher-gower-m_HRfLhgABo-unsplash.jpg";
 // import img2 from "./images/undraw_progressive_app_m9ms.svg";
@@ -23,13 +23,13 @@ const service2 = {
     "Implemented a responsive Adobe XD design for client with HTML5/CSS3",
   link: "https://www.cronycreative.com"
 };
-// const service3 = {
-//   img: img3,
-//   title: "Worldwide Water Analysis",
-//   para:
-//     "Created interactive graphs/maps with Ploty.js ",
-//     link: "http://thirsty2thrive.world/"
-// };
+const service3 = {
+  img: img3,
+  title: "React Dice Game",
+  para:
+    "Real-time multiplayer dice game with a built-in chat feature",
+    link: "https://www.honecode.com"
+};
 
 const service4 = {
   img: img4,
@@ -43,10 +43,10 @@ const service5 = {
   img: img5,
   title: "Teacher Assistant",
   para:
-    "Automated the process of transerring grade data between websites for a local teacher with Selenium",
+    "Automated the process of transferring grade data between websites for a local teacher with Selenium",
     link: "https://github.com/hone1er/teachersAid"
 };
-const services = [service1, service4,  service2, service5];
+const services = [service1, service4,  service3, service2, service5];
 
 function ControlledCarousel(props) {
   const [index, setIndex] = React.useState(0);
