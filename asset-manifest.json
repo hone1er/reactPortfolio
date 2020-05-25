@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.057818e4.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.b49167a3.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.b49167a3.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.f431bcd8.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.993af147.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.993af147.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.414a3297.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.414a3297.js.map",
     "static/css/2.47e06e2e.chunk.css": "/reactPortfolio/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.e4593ca6.chunk.js": "/reactPortfolio/static/js/2.e4593ca6.chunk.js",
-    "static/js/2.e4593ca6.chunk.js.map": "/reactPortfolio/static/js/2.e4593ca6.chunk.js.map",
+    "static/js/2.b2214f39.chunk.js": "/reactPortfolio/static/js/2.b2214f39.chunk.js",
+    "static/js/2.b2214f39.chunk.js.map": "/reactPortfolio/static/js/2.b2214f39.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
-    "precache-manifest.d042c343694e113f5044a3fa02648648.js": "/reactPortfolio/precache-manifest.d042c343694e113f5044a3fa02648648.js",
+    "precache-manifest.6e5ff63c48daebb4647e308f8edf5dfd.js": "/reactPortfolio/precache-manifest.6e5ff63c48daebb4647e308f8edf5dfd.js",
     "service-worker.js": "/reactPortfolio/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/reactPortfolio/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.057818e4.chunk.css.map": "/reactPortfolio/static/css/main.057818e4.chunk.css.map",
-    "static/js/2.e4593ca6.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.e4593ca6.chunk.js.LICENSE.txt",
+    "static/css/main.f431bcd8.chunk.css.map": "/reactPortfolio/static/css/main.f431bcd8.chunk.css.map",
+    "static/js/2.b2214f39.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.b2214f39.chunk.js.LICENSE.txt",
     "static/media/andres-urena-tsBropDpnwE-unsplash.jpg": "/reactPortfolio/static/media/andres-urena-tsBropDpnwE-unsplash.befd75dd.jpg",
     "static/media/christopher-gower-m_HRfLhgABo-unsplash.jpg": "/reactPortfolio/static/media/christopher-gower-m_HRfLhgABo-unsplash.8a993a5d.jpg",
     "static/media/nameTrender4.JPG": "/reactPortfolio/static/media/nameTrender4.b12c6158.JPG",
     "static/media/python-seeklogo.com.svg": "/reactPortfolio/static/media/python-seeklogo.com.51c2eab2.svg",
     "static/media/responsive1.JPG": "/reactPortfolio/static/media/responsive1.84637985.JPG",
+    "static/media/threesImg.png": "/reactPortfolio/static/media/threesImg.9d9618cc.png",
     "static/media/undraw_feeling_proud_qne1 (1).svg": "/reactPortfolio/static/media/undraw_feeling_proud_qne1 (1).46e01fac.svg",
     "static/media/undraw_progressive_app_m9ms (1).svg": "/reactPortfolio/static/media/undraw_progressive_app_m9ms (1).14d2c54e.svg",
     "static/media/undraw_setup_analytics_8qkl (1).svg": "/reactPortfolio/static/media/undraw_setup_analytics_8qkl (1).50d0e7ff.svg"
@@ -26,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.414a3297.js",
     "static/css/2.47e06e2e.chunk.css",
-    "static/js/2.e4593ca6.chunk.js",
-    "static/css/main.057818e4.chunk.css",
-    "static/js/main.b49167a3.chunk.js"
+    "static/js/2.b2214f39.chunk.js",
+    "static/css/main.f431bcd8.chunk.css",
+    "static/js/main.993af147.chunk.js"
   ]
 }
