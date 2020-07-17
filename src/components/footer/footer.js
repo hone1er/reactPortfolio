@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
                 <p>Joseph Villavicencio</p>
                 <p>contact@JMVcode.com</p>
                 <a
-                  href="https://drive.google.com/file/d/17CC1Kxuwpv8ujKHkr6AnnSOzHlqoaYsy/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1XuRFYD-Y9mtD-Bf-wfgQ46U-mA9ooJmm/view?usp=sharing"
                   target="__blank"
                 >
                   <button id="resumebutton" className="btn btn-primary">
