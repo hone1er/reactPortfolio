@@ -21,6 +21,27 @@ $open: 'Open Sans';
     padding-top: 35px;
 }
 
+.other {
+    background-color: #5764ba;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #f8f8f8;
+
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #portfolioDiv {
         margin-top: 150px;

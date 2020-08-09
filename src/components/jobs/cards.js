@@ -13,7 +13,7 @@ const service1 = {
   paragraph:
     "professional data analysis & web-based interactive data visualizations",
   fade: "bounceInLeft",
-  delay: viewport > 768 ? "575" : "0"
+  delay: "0"
 };
 const service2 = {
   img: img2,
@@ -29,7 +29,7 @@ const service3 = {
   paragraph:
     "scripts & automations to replace tedius/repetitive task on the computer",
   fade: viewport > 768 ? "bounceInRight" : "bounceInUp",
-  delay: viewport > 768 ? "575" : "0"
+  delay: "0"
 };
 
 const services = [service1, service2, service3];
