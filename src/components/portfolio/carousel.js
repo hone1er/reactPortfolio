@@ -14,7 +14,7 @@ const service1 = {
   title: "Name Trender",
   para:
     "Created as a personal project. Enter a name and see how it has been trending in the U.S. since 1881!",
-    link: "https://www.nametrender.com"
+    link: "https://www.nametrender.herokuapp.com"
 };
 const service2 = {
   img: img2,
@@ -28,7 +28,7 @@ const service3 = {
   title: "React Dice Game",
   para:
     "Real-time multiplayer dice game with a built-in chat feature",
-    link: "https://www.honecode.com"
+    link: "https://throwthrees.herokuapp.com"
 };
 
 const service4 = {
